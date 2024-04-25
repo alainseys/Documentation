@@ -2,6 +2,7 @@
 To get a working dev envriroment follow these instructions to get started.
 
     sudo apt-get update -y && sudo apt-get upgrade -y 
+    sudo apt-get install wget -y 
     sudo apt-get install openssh-server -y
     sudo systemctl start ssh
     sudo systemctl status ssh
