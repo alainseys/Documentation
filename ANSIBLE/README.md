@@ -22,6 +22,7 @@ Now the virual enviroment should be activated now we need to install the require
 
 ## Local development
 to allow local development add these changes to your system 
+    
     touch ~/.ansible.cfg
     [defaults]
     inventory = ~/.ansible-hosts
