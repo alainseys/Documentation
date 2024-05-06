@@ -19,3 +19,17 @@ Now the virual enviroment should be activated now we need to install the require
     ansible-galaxy collection install ansible.windows
     ansible-galaxy collection install community.general
     ansible-galaxy collection install community.vmware
+
+## Local development
+to allow local development add these changes to your system 
+    touch ~/.ansible.cfg
+    [defaults]
+    inventory = ~/.ansible-hosts
+
+    touch  ~/.ansible-hosts
+    localhost ansible_collection=local
+
+now you wil be able to run the playbooks on your local system 
+    
+
+    
